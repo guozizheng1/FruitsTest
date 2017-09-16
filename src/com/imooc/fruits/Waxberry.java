@@ -9,6 +9,7 @@ public final class Waxberry extends Fruits{
 	//创建构造方法，完成调用父类的构造方法，完成属性赋值
   public Waxberry(String shape, String taste){
       super(shape, taste);
+      this.setColor(color);
   }
   
   public String getColor(){
